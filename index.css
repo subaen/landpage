@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    transition: width none;
+}
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #444;
+}
+
+.header .header-1 {
+    background-color: #F9F1E7;
+    padding: 1.5rem 6.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header-1 .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #444;
+}
+
+.header .header-1 .logo i{
+    color: #E89F71;
+    padding: 1rem;
+}
+.header .header-1 .sreach-form{
+    width: 70rem;
+    height: 5rem;
+    border: #444;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: .6rem;
+}
+.header .header-1 .sreach-form input{
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+    color: #444;
+}
+.header .header-1 .sreach-form label{
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    color: #444;
+}
+.header .header-1 .sreach-form label:hover{
+    color: #E89F71;
+}
+
+.header .header-1 .icon{
+    color: #E89F71;
+}
+
+.header .header-1 .icons div,
+.header .header-1 .icons a
+{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: #444;
+    cursor: pointer;
+}
+
+.header .header-1 .icons div:hover,
+.header .header-1 .icons a:hover{
+    color: #E89F71;
+}
