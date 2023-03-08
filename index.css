@@ -135,4 +135,33 @@ section{
     z-index: 1000;
 }
 
+.home .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.home .row .up{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 150%;
+    /* or 180px */
+    
+    text-align: center;
+}
+
+.home .row .down{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    /* or 60px */
+    
+    text-align: center;
+}
+
 
