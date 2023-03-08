@@ -90,3 +90,30 @@ html::-webkit-scrollbar-thumb{
 .header .header-1 .icons a:hover{
     color: #E89F71;
 }
+
+.header-2{
+    background-color: #F5E0AE;
+}
+.header-2 .navbar{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header-2 .navbar a{
+    font-family: 'Montserrat'; margin-left: 50px;
+    color: black;
+
+}
+
+.header-2 .navbar a:hover{
+    color: #E89F71;
+}
+
+.header-2 .anavbar .active{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    z-index: 1000;
+}
+
+
