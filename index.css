@@ -27,6 +27,24 @@ html::-webkit-scrollbar-thumb{
     background: #444;
 }
 
+section{
+    padding: 5rem 9%;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    border-radius: .5rem;
+    color: #fff;
+    background-color: #E89F71;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(160, 109, 78);
+}
+
 .header .header-1 {
     background-color: #F9F1E7;
     padding: 1.5rem 6.5%;
