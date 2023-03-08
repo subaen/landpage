@@ -98,6 +98,7 @@ html::-webkit-scrollbar-thumb{
     text-align: center;
     text-decoration: none;
     font-size: 2rem;
+    height: 5rem;
 }
 
 .header-2 .navbar a{
