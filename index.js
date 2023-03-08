@@ -20,18 +20,20 @@ onload = () =>{
 
 var swiper = new Swiper(".books-slider", {
    loop:true,
+   centeredSlides:true,
+   autoplay: {
+    delay: 9500,
+    disableoninteraction: false,
+   },
     breakpoints: {
-      "@0.00": {
+      "0": {
         slidesPerView: 1,
       },
-      "@0.75": {
+      "768": {
         slidesPerView: 2,
       },
-      "@1.00": {
+      "1024": {
         slidesPerView: 3,
-      },
-      "@1.50": {
-        slidesPerView: 4,
       },
     },
   });
