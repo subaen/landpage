@@ -407,6 +407,7 @@ color: #898989;
     color: rgba(251, 210, 5, 0.623);
 }
 
+<<<<<<< Updated upstream
 .deal{
     display: flex;
     background-color: #66666614;
@@ -434,3 +435,10 @@ color: #898989;
 .deal .content h5{
     font-size: 2rem;
 }
+=======
+footer{
+    clear: both;
+    z-index: 1;
+
+}
+>>>>>>> Stashed changes
