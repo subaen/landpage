@@ -407,7 +407,7 @@ color: #898989;
     color: rgba(251, 210, 5, 0.623);
 }
 
-<<<<<<< Updated upstream
+/* <<<<<<< Updated upstream */
 .deal{
     display: flex;
     background-color: #aaaaaa14;
@@ -444,15 +444,15 @@ color: #898989;
 .deal .content h5{
     font-size: 2rem;
 }
-<<<<<<< HEAD
-=======
+/* <<<<<<< HEAD
+======= */
 footer{
     clear: both;
     z-index: 1;
 
 }
->>>>>>> Stashed changes
-=======
+/* >>>>>>> Stashed changes
+======= */
 .deal .btn{
     height: 7rem;
     width: 30rem;
@@ -495,4 +495,4 @@ footer{
 }
 
 
->>>>>>> a4a129539f19b6d095e27d70bc360fbd22a2c082
+/* >>>>>>> a4a129539f19b6d095e27d70bc360fbd22a2c082 */
