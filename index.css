@@ -18,7 +18,7 @@ transition: width none;
 
 html{
 font-size: 62.5%;
-overflow: hidden;
+/*overflow: hidden;*/
 
 scroll-padding-top: 5rem;
 scroll-behavior: smooth;
@@ -42,17 +42,44 @@ padding: 5rem 9%;
 .btn{
 margin-top: 1rem;
 display: inline-block;
+align-items: center;
 padding: .9rem 3rem;
 border-radius: .5rem;
 color: #fff;
-background-color: #E89F71;
-font-size: 1.7rem;
+background: #E89F71;
 cursor: pointer;
-}
-.btn:hover{
-background-color: rgb(160, 109, 78);
+font-weight: 500;
+font-size: 2rem;
 }
 
+.btn:hover{
+background-color:coral;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.heading:before{
+    content: '';
+    position: absolute;
+    top: 50%;left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: .01rem;
+    background: #444;
+    z-index: -1;
+}
+
+.heading span{
+    font-size: 3rem;
+    padding: .5rem 2rem;
+    color: #444;
+    background: #fff;
+    border: var(--border);
+}
 .header .header-1 {
 background-color: #F9F1E7;
 padding: 1.5rem 6.5%;
@@ -172,9 +199,6 @@ font-weight: 400;
 font-size: 12rem;
 line-height: 150%;
 /* or 60px */
-
-
-text-align: center;
 }
 .home .row .btn{
 width: 15rem;
@@ -193,7 +217,8 @@ text-align: center;
 margin-top: 2rem;
 }
 .home .row .books-slider a img{
-height: 25rem;
+height: 30rem;
+
 }
 
 .home .row .books-slider a:hover img{
@@ -212,8 +237,8 @@ gap: 1.5rem;
 padding: 2rem 0;
 }
 .icons-container .icons .img{
-width: 35.18px;
-height: 40px;
+width: 4.5rem;
+height: 4rem;
 left: 6.02%;
 right: 6.02%;
 top: 0%;
@@ -248,3 +273,74 @@ line-height: 150%;
 color: #898989;
 }
 
+/* Xu huong*/
+.xu-huong{
+    height: 60rem;
+}
+.xu-huong .xu-huong-slider .box{
+    width: 25rem;
+    height: 45rem;
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+    border: var(--border);
+    text-align: center;
+}
+
+.xu-huong .xu-huong-slider .box:hover{
+    border: var(--boder-hover);
+}
+.xu-huong .xu-huong-slider .box .image{
+    padding: 1rem;
+    background: #eeeeee7b;
+    margin: 1rem;
+}
+.xu-huong .xu-huong-slider .box .image img{
+    height: 25rem;
+}
+.xu-huong .xu-huong-slider .box .icons{ 
+    border-bottom: var(--boder-hover);
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    z-index: 1;
+    transform: translateY(-100%);
+}
+.xu-huong .xu-huong-slider .box:hover .icons{
+    transform: translateY(0%);
+
+}
+
+.xu-huong .xu-huong-slider .box:hover .image{
+    transform: translateY(3rem);
+}
+
+.xu-huong .xu-huong-slider .box .icons a{
+    color: #444;
+    font-size: 2.2rem;
+    padding: 1.3rem 1.5rem;
+}
+
+.xu-huong .xu-huong-slider .box .icons a:hover{
+    background: coral;
+    color: #fff;
+}
+.xu-huong .xu-huong-slider .box .content{
+    background: #fff;
+    padding: 1.5rem;
+}
+.xu-huong .xu-huong-slider .box .content h3{
+    font-size: 2rem;
+    color: #444;
+    padding-top: 1rem;
+}
+.xu-huong .xu-huong-slider .box .content .price{
+    font-size: 2.5rem;
+    color: red;
+    font-weight: bold;
+}
+.xu-huong .xu-huong-slider .box .content .price span{
+    font-size: 1.5rem;
+    color: #898989;
+    text-decoration: line-through;
+}
