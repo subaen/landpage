@@ -29,11 +29,14 @@ var swiper = new Swiper(".books-slider", {
       "0": {
         slidesPerView: 1,
       },
-      "768": {
+      "100": {
         slidesPerView: 2,
       },
-      "1024": {
+      "200": {
         slidesPerView: 3,
+      },
+      "300": {
+        slidesPerView: 4,
       },
     },
   });
