@@ -410,17 +410,26 @@ color: #898989;
 <<<<<<< Updated upstream
 .deal{
     display: flex;
-    background-color: #66666614;
+    background-color: #aaaaaa14;
+    gap: 15rem;
+    
+}
+.deal .image{
+    display: flex;
+    align-items: center;
 }
 .deal .image img{
     height: 80rem;
+    box-shadow: .1rem .1rem 1rem black  ;
 }
 .deal .content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    width: 50rem;
+    width: 75rem;
+    padding: 3rem;
+    margin: 1rem;
 }
 .deal .content h2{
     font-size: 3.2rem;
@@ -435,6 +444,7 @@ color: #898989;
 .deal .content h5{
     font-size: 2rem;
 }
+<<<<<<< HEAD
 =======
 footer{
     clear: both;
@@ -442,3 +452,47 @@ footer{
 
 }
 >>>>>>> Stashed changes
+=======
+.deal .btn{
+    height: 7rem;
+    width: 30rem;
+    margin: 5rem 0;
+}
+
+.review .review-slider .box{
+    border: var(--border);
+    padding: 2rem;
+    text-align: center;
+}
+
+.review .review-slider .box:hover{
+    border: var(--boder-hover);
+}
+
+.review .review-slider .box img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .review-slider .box h3{
+    color: #3A3A3A;
+    font-size: 2.2rem;
+    padding: 5rem 0;
+}
+
+.review .review-slider .box p{
+    color: #666;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.review .review-slider .box .stars i{
+    font-size: 1.7rem;
+    color: yellow;
+}
+
+
+>>>>>>> a4a129539f19b6d095e27d70bc360fbd22a2c082
