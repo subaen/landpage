@@ -361,14 +361,17 @@ color: #898989;
 .swiper-button-prev:hover{
     background-color: #E89F71;
 }
-.noi-bat{
-    height: 35rem;
+
+.noi-bat-slider{
+    height: 30rem;
+    margin: 1rem;
 }
+
 .noi-bat .noi-bat-slider .box{
     display: flex;
     align-items: center;
     border: var(--border);
-    margin: 1rem;
+    gap: 3rem;
 }
 .noi-bat .noi-bat-slider .box .image{
     width: 15rem;
@@ -402,4 +405,32 @@ color: #898989;
 .noi-bat .noi-bat-slider .box .content .stars i{
     font-size: 1.5rem;
     color: rgba(251, 210, 5, 0.623);
+}
+
+.deal{
+    display: flex;
+    background-color: #66666614;
+}
+.deal .image img{
+    height: 80rem;
+}
+.deal .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+}
+.deal .content h2{
+    font-size: 3.2rem;
+    color: red;
+}
+.deal .content h4{
+    font-size: 2.2rem;
+}
+.deal .content h1{
+    font-size: 15rem;
+}
+.deal .content h5{
+    font-size: 2rem;
 }
