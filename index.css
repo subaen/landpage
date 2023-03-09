@@ -1,3 +1,10 @@
+:root{
+    --border: .1rem solid #444;
+    --boder-hover: .1rem solid black;
+    
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -11,9 +18,51 @@
 }
 html{
     font-size: 62.5%;
-    overflow: hidden;
     scroll-padding-top: 5rem;
     scroll-behavior: smooth;
+    /*overflow: hidden;*/
+}
+
+section{
+    padding: 5rem 6.5%;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    border-radius: .5rem;
+    color: #fff;
+    background-color: #E89F71;
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn:hover{
+    background-color: coral;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.heading:before{
+    content: '';
+    position: absolute;
+    top: 50%; left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: .01rem;
+    background: #666;
+    z-index: -1;
+
+}
+.heading span{
+    font-size: 3rem;
+    padding: .5rem 2rem;
+    color: #444;
+    background: #fff;
+    border: var(--border);
 }
 
 html::-webkit-scrollbar{
@@ -95,10 +144,13 @@ html::-webkit-scrollbar-thumb{
     background-color: #F5E0AE;
 }
 .header-2 .navbar{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     font-size: 2rem;
     height: 5rem;
+    font-size: 2rem;
 }
 
 .header-2 .navbar a{
@@ -118,3 +170,52 @@ html::-webkit-scrollbar-thumb{
 }
 
 
+
+
+
+/* Sách nổi bật Start */
+.sach-noi-bat .sach-noi-bat-slider .box{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    border:var(--border);
+    margin: 1rem 0;
+}
+
+.sach-noi-bat .sach-noi-bat-slider .box:hover{
+    border: var(--boder-hover);
+}
+
+.sach-noi-bat .sach-noi-bat-slider .image img{
+    height: 15rem;
+}
+
+.sach-noi-bat .sach-noi-bat-slider .box .content h3{
+    font-size: 2rem;
+    color: #444;
+}
+.sach-noi-bat .sach-noi-bat-slider .box .content .price{
+    font-size: 2.2rem;
+    color: #444;
+    padding-bottom: .5rem;
+}
+.sach-noi-bat .sach-noi-bat-slider .box .content .price span{
+    font-size: 1.2rem;
+    color: #666;
+text-decoration: line-through;
+}
+.sach-noi-bat .sach-noi-bat-slider .box .content .stars i{
+    font-size: 1.5rem;
+    color: rgb(240, 204, 3);
+}
+.sach-noi-bat .sach-noi-bat-slider .box .content .mua-ngay button{
+    height: 4rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #E89F71;
+    color: white;
+    border-radius: .3rem;
+}
+
+/* Sách nổi bật End */
