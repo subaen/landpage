@@ -11,7 +11,7 @@
 }
 html{
     font-size: 62.5%;
-    overflow: hidden;
+
     scroll-padding-top: 5rem;
     scroll-behavior: smooth;
 }
@@ -199,5 +199,43 @@ margin-left: 3.5rem;
     gap: 1.5rem;
     padding: 2rem 0;
 }
+.icons-container .icons .img{
+    width: 35.18px;
+    height: 40px;
+    left: 6.02%;
+    right: 6.02%;
+    top: 0%;
+    bottom: 0%;
+}
+.icons-container .icons .h5{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+/* identical to box height, or 27px */
 
 
+/* Color / Gray 1 */
+
+    color: #3A3A3A;
+
+}
+
+.icons-container .icons .p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Color / Gray 3 */
+
+    color: #898989;
+}
+
+body{
+    height: 300rem;
+}
