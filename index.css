@@ -203,7 +203,12 @@ line-height: 150%;
 
 .home .row .content{
 border: 1px solid #444;
-padding: 2rem 1rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+
 }
 
 .home .row .books-slider{
