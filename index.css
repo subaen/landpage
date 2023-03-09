@@ -167,22 +167,17 @@ color: black;
 color: #E89F71;
 }
 
-.header-2 .anavbar .active{
-position: fixed;
-top: 0;left: 0;right: 0;
-z-index: 1000;
+.header-2.active{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    z-index: 1000;
 }
 
-.home{
-    background-image: url(https://user-images.githubusercontent.com/127117169/223913742-1415bac2-a1e1-4cd2-8144-e4df6d00f907.jpg);
-    background-size: cover;
-    background-position: center;
-}
 
 .home .row{
 display: flex;
 align-items: center;
-flex-wrap: wrap;
+justify-content: center;
 gap: 1.5rem;
 }
 
@@ -205,11 +200,6 @@ font-size: 12rem;
 line-height: 150%;
 /* or 60px */
 }
-.home .row .btn{
-width: 15rem;
-height: 3.5rem;
-margin-left: 3.5rem;
-}
 
 .home .row .content{
 border: 1px solid #444;
@@ -224,10 +214,6 @@ margin-top: 2rem;
 .home .row .books-slider a img{
 height: 30rem;
 
-}
-
-.home .row .books-slider a:hover img{
-transform: scale(.9);
 }
 
 .home .row .books-slider .stand{
