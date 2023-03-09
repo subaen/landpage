@@ -496,3 +496,66 @@ footer{
 
 
 /* >>>>>>> a4a129539f19b6d095e27d70bc360fbd22a2c082 */
+
+
+/* FOOTER */
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+.footer .box-container .box0 h3{
+    background-color: #b4dabe99;
+    border-radius: 10px;
+    font-size:2.2rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+.footer .box-container .box0 a{
+    margin: 10px;
+    font-size: 1.4rem;
+    display:block;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+.footer .box-container .box0 a i {
+    color: green;
+    padding-right: .5rem;
+}
+
+.footer .box-container .box0 a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .box-container .share{
+    padding: 1rem 0;
+    padding-left: 400px;
+    display: flex;
+    text-align: center;
+
+
+}
+.footer .box-container .share a{
+    padding-left: 60px;
+    height: 8rem;
+    width: 8rem;
+    line-height: 5rem;
+    font-size: 3.5rem;
+    color:rgb(30, 96, 30);
+    background:var(--green) ;
+    border-radius: 50%;
+}
+
+.footer .box-container .credit{
+    width: 100%;
+    border-top: var(--border);
+    margin-left: 170px;
+    margin-top:100px;    
+    font-size: 2rem;
+    color: var(--light-color);
+    text-align: center;
+}
+.footer .credit span{
+    color:green;
+}
+
