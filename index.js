@@ -21,7 +21,7 @@ onload = () =>{
 var swiper = new Swiper(".books-slider", {
    loop:true,
    centeredSlides:true,
-   autoplay: {
+   autoplay:{
     delay: 9500,
     disableoninteraction: false,
    },
