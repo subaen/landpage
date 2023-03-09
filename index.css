@@ -404,17 +404,26 @@ color: #898989;
 
 .deal{
     display: flex;
-    background-color: #66666614;
+    background-color: #aaaaaa14;
+    gap: 15rem;
+    
+}
+.deal .image{
+    display: flex;
+    align-items: center;
 }
 .deal .image img{
     height: 80rem;
+    box-shadow: .1rem .1rem 1rem black  ;
 }
 .deal .content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    width: 50rem;
+    width: 75rem;
+    padding: 3rem;
+    margin: 1rem;
 }
 .deal .content h2{
     font-size: 3.2rem;
@@ -429,3 +438,10 @@ color: #898989;
 .deal .content h5{
     font-size: 2rem;
 }
+.deal .btn{
+    height: 7rem;
+    width: 30rem;
+    margin: 5rem 0;
+}
+
+
