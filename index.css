@@ -3,6 +3,7 @@
     --boder-hover: .1rem solid black;
     
 }
+
 *{
 padding: 0;
 margin: 0;
@@ -14,6 +15,7 @@ text-transform: capitalize;
 transition: all .2s linear;
 transition: width none;
 }
+
 html{
 font-size: 62.5%;
 overflow: hidden;
@@ -86,6 +88,7 @@ height: 100%;
 width: 100%;
 text-transform: none;
 color: #444;
+letter-spacing: .2rem;
 }
 .header .header-1 .sreach-form label{
 font-size: 2.5rem;
@@ -119,14 +122,17 @@ color: #E89F71;
 background-color: #F5E0AE;
 }
 .header-2 .navbar{
-text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 3rem;
 text-decoration: none;
 font-size: 2rem;
-height: 3rem;
+height: 5rem;
 }
 
 .header-2 .navbar a{
-font-family: 'Montserrat'; margin-left: 50px;
+font-family: 'Montserrat';
 color: black;
 
 }
@@ -242,6 +248,3 @@ line-height: 150%;
 color: #898989;
 }
 
-body{
-height: 300rem;
-}
