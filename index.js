@@ -1,6 +1,17 @@
 window.onscroll = () =>{
   if (window.scrollY > 40) {
-    document.querySelector('header-2').classList.add('active');
+    document.querySelector('.header .header-2').classList.add('activation');
+  }
+  else{
+    document.querySelector('.header .header-2').classList.remove('activation');
+  }
+}
+window.onload = () =>{
+  if (window.scrollY > 40) {
+    document.querySelector('.header .header-2').classList.add('activation');
+  }
+  else{
+    document.querySelector('.header .header-2').classList.remove('activation');
   }
 }
 
