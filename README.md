@@ -21,3 +21,7 @@ https://user-images.githubusercontent.com/127117169/223785266-6e6028b3-34f2-40d2
 https://user-images.githubusercontent.com/127117169/223785291-d42a814d-e561-4db9-bd54-b151b9cbcfcf.png
 /*cái kệ*/
 https://user-images.githubusercontent.com/127117169/223911340-33c6b4cf-36fa-466b-a2b5-3dce61a72748.png
+/*ảnh backg sách*/
+https://user-images.githubusercontent.com/127117169/223965142-3f5085a2-b578-46b7-8527-0de8fa2131f4.jpg
+https://user-images.githubusercontent.com/127117169/223965154-bed68268-027a-4a29-b300-8996a23c0975.jpg
+https://user-images.githubusercontent.com/127117169/223965172-2c9af816-d56d-41f9-9ccd-a833a78c29aa.jpg
