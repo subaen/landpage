@@ -147,6 +147,12 @@ top: 0;left: 0;right: 0;
 z-index: 1000;
 }
 
+.home{
+    background-image: url(white-painted-wall-texture-background_18416494.htm);
+    background-size: cover;
+    background-position: center;
+}
+
 .home .row{
 display: flex;
 align-items: center;
@@ -198,6 +204,10 @@ height: 25rem;
 
 .home .row .books-slider a:hover img{
 transform: scale(.9);
+}
+
+.home .row .books-slider .stand{
+    width: 100%;
 }
 
 .icons-container{
