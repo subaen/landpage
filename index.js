@@ -29,13 +29,10 @@ var swiper = new Swiper(".books-slider", {
       "0": {
         slidesPerView: 1,
       },
-      "100": {
-        slidesPerView: 2,
-      },
-      "200": {
+      "768": {
         slidesPerView: 3,
       },
-      "300": {
+      "1024": {
         slidesPerView: 4,
       },
     },
@@ -69,5 +66,26 @@ var swiper = new Swiper(".books-slider", {
      },
    });
 
+   var swiper = new Swiper(".noi-bat-slider", {
+    spaceBetween:10,
+    loop:true,
+    centeredSlides:true,
+    autoplay: {
+     delay: 9500,
+     disableoninteraction: false,
+    },
 
+     breakpoints: {
+       0: {
+         slidesPerView: 1,
+       },
+       
+       768: {
+         slidesPerView: 2,
+       },
+       1024: {
+         slidesPerView: 3,
+       },
+     },
+   });
  
