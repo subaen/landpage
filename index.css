@@ -447,25 +447,19 @@ color: #898989;
 .deal .content h5{
     font-size: 2rem;
 }
-<<<<<<< HEAD
-/* <<<<<<< HEAD
-======= */
-=======
 
->>>>>>> ec088ede579f806cf039b0f34ef0f032deb4dbe5
 footer{
     clear: both;
     z-index: 1;
 
 }
-<<<<<<< HEAD
-/* >>>>>>> Stashed changes
-======= */
+
 .deal .btn{
     height: 7rem;
     width: 30rem;
     margin: 5rem 0;
 }
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -478,6 +472,8 @@ footer{
 
 >>>>>>> ec088ede579f806cf039b0f34ef0f032deb4dbe5
 >>>>>>> 7cb36f5cd532a93183218dc6ae87e85e7adea7d1
+=======
+>>>>>>> 096b1a280b18d767574e6b97bbce59396c4ce010
 
 .review .review-slider .box{
     border: var(--border);
@@ -515,7 +511,6 @@ footer{
 }
 
 
-/* >>>>>>> a4a129539f19b6d095e27d70bc360fbd22a2c082 */
 
 
 /* FOOTER */
