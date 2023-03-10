@@ -398,3 +398,7 @@ color: #898989;
     font-size: 1.5rem;
     color: rgba(251, 210, 5, 0.623);
 }
+
+footer{
+    clear: both;
+}
