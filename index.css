@@ -411,9 +411,8 @@ color: #898989;
 
 <<<<<<< Updated upstream
 .deal{
-    display: flex;
     background-color: #aaaaaa14;
-    gap: 15rem;
+    gap: 1rem;
     
 }
 
@@ -454,11 +453,7 @@ footer{
 
 }
 
-.deal .btn{
-    height: 7rem;
-    width: 30rem;
-    margin: 5rem 0;
-}
+
 
 .review .review-slider .box{
     border: var(--border);
