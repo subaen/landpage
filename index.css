@@ -502,7 +502,7 @@ footer{
 
 .review .review-slider .box .stars i{
     font-size: 1.7rem;
-    color: yellow;
+    color:rgba(251, 210, 5, 0.623);
 }
 
 .review-slider{
@@ -519,21 +519,22 @@ footer{
     gap: 1.5rem;
 }
 .footer .box-container .box0 h3{
-    background-color: #b4dabe99;
-    border-radius: 10px;
+    background-color: #F5E0AE;
+    border-radius: 1rem;
     font-size:2.2rem;
     color: var(--black);
-    padding: 1rem 0;
+    padding: 1rem 1rem  ;
+    margin: 1rem;
 }
 .footer .box-container .box0 a{
-    margin: 10px;
+    margin: 1rem;
     font-size: 1.4rem;
     display:block;
     color: var(--light-color);
-    padding: 1rem 0;
+    padding: 1rem ;
 }
 .footer .box-container .box0 a i {
-    color: green;
+    color: #F5E0AE;
     padding-right: .5rem;
 }
 
@@ -555,7 +556,7 @@ footer{
     width: 8rem;
     line-height: 5rem;
     font-size: 3.5rem;
-    color:rgb(30, 96, 30);
+    color:#F5E0AE;
     background:var(--green) ;
     border-radius: 50%;
 }
@@ -570,6 +571,6 @@ footer{
     text-align: center;
 }
 .footer .credit span{
-    color:green;
+    color:#F5E0AE  ;
 }
 
