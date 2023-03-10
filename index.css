@@ -414,6 +414,7 @@ color: #898989;
     gap: 15rem;
     
 }
+
 .deal .image{
     display: flex;
     align-items: center;
@@ -444,15 +445,13 @@ color: #898989;
 .deal .content h5{
     font-size: 2rem;
 }
-<<<<<<< HEAD
-=======
+
 footer{
     clear: both;
     z-index: 1;
 
 }
->>>>>>> Stashed changes
-=======
+
 .deal .btn{
     height: 7rem;
     width: 30rem;
