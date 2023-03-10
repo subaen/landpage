@@ -409,7 +409,7 @@ color: #898989;
     color: rgba(251, 210, 5, 0.623);
 }
 
-<<<<<<< Updated upstream
+/* <<<<<<< Updated upstream */
 .deal{
     display: flex;
     background-color: #aaaaaa14;
@@ -447,18 +447,37 @@ color: #898989;
 .deal .content h5{
     font-size: 2rem;
 }
+<<<<<<< HEAD
+/* <<<<<<< HEAD
+======= */
+=======
 
+>>>>>>> ec088ede579f806cf039b0f34ef0f032deb4dbe5
 footer{
     clear: both;
     z-index: 1;
 
 }
-
+<<<<<<< HEAD
+/* >>>>>>> Stashed changes
+======= */
 .deal .btn{
     height: 7rem;
     width: 30rem;
     margin: 5rem 0;
 }
+=======
+
+<<<<<<< HEAD
+.deal .btn{
+    height: 7rem;
+    width: 30rem;
+    margin: 5rem 0;
+}
+=======
+
+>>>>>>> ec088ede579f806cf039b0f34ef0f032deb4dbe5
+>>>>>>> 7cb36f5cd532a93183218dc6ae87e85e7adea7d1
 
 .review .review-slider .box{
     border: var(--border);
@@ -496,4 +515,67 @@ footer{
 }
 
 
->>>>>>> a4a129539f19b6d095e27d70bc360fbd22a2c082
+/* >>>>>>> a4a129539f19b6d095e27d70bc360fbd22a2c082 */
+
+
+/* FOOTER */
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+.footer .box-container .box0 h3{
+    background-color: #b4dabe99;
+    border-radius: 10px;
+    font-size:2.2rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+.footer .box-container .box0 a{
+    margin: 10px;
+    font-size: 1.4rem;
+    display:block;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+.footer .box-container .box0 a i {
+    color: green;
+    padding-right: .5rem;
+}
+
+.footer .box-container .box0 a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .box-container .share{
+    padding: 1rem 0;
+    padding-left: 400px;
+    display: flex;
+    text-align: center;
+
+
+}
+.footer .box-container .share a{
+    padding-left: 60px;
+    height: 8rem;
+    width: 8rem;
+    line-height: 5rem;
+    font-size: 3.5rem;
+    color:rgb(30, 96, 30);
+    background:var(--green) ;
+    border-radius: 50%;
+}
+
+.footer .box-container .credit{
+    width: 100%;
+    border-top: var(--border);
+    margin-left: 170px;
+    margin-top:100px;    
+    font-size: 2rem;
+    color: var(--light-color);
+    text-align: center;
+}
+.footer .credit span{
+    color:green;
+}
+
