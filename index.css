@@ -153,7 +153,9 @@ justify-content: center;
 align-items: center;
 gap: 3rem;
 text-decoration: none;
+font-weight: bold;
 font-size: 2rem;
+font-variant: small-caps;
 height: 5rem;
 }
 
