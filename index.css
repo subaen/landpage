@@ -409,7 +409,6 @@ color: #898989;
     color: rgba(251, 210, 5, 0.623);
 }
 
-<<<<<<< Updated upstream 
 .deal{
     display: flex;
     background-color: #aaaaaa14;
@@ -459,26 +458,21 @@ footer{
     width: 30rem;
     margin: 5rem 0;
 }
-<<<<<<< HEAD
-=======
 
-<<<<<<< HEAD
 .deal .btn{
     height: 7rem;
     width: 30rem;
     margin: 5rem 0;
 }
-=======
 
->>>>>>> ec088ede579f806cf039b0f34ef0f032deb4dbe5
->>>>>>> 7cb36f5cd532a93183218dc6ae87e85e7adea7d1
-=======
->>>>>>> 096b1a280b18d767574e6b97bbce59396c4ce010
 
 .review .review-slider .box{
     border: var(--border);
     padding: 2rem;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
