@@ -409,7 +409,7 @@ color: #898989;
     color: rgba(251, 210, 5, 0.623);
 }
 
-/* <<<<<<< Updated upstream */
+<<<<<<< Updated upstream 
 .deal{
     display: flex;
     background-color: #aaaaaa14;
@@ -478,7 +478,7 @@ footer{
 .review .review-slider .box{
     border: var(--border);
     padding: 2rem;
-    text-align: center;
+    
 }
 
 .review .review-slider .box:hover{
@@ -510,7 +510,11 @@ footer{
     color: yellow;
 }
 
-
+.review-slider{
+    height: 40rem;
+    margin: 1rem;
+    padding: 1rem;
+}
 
 
 /* FOOTER */
