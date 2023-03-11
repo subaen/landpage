@@ -409,11 +409,9 @@ color: #898989;
     color: rgba(251, 210, 5, 0.623);
 }
 
-<<<<<<< HEAD
 footer{
     clear: both;
 }
-=======
 .deal{
     display: flex;
     background-color: #aaaaaa14;
@@ -594,7 +592,7 @@ footer{
     padding: 1rem ;
 }
 .footer .box-container .box0 a i {
-    color: #F5E0AE;
+    color: #E89F71;
     padding-right: .5rem;
 }
 
@@ -616,7 +614,7 @@ footer{
     width: 8rem;
     line-height: 5rem;
     font-size: 3.5rem;
-    color:#F5E0AE;
+    color:#E89F71;
     background:var(--green) ;
     border-radius: 50%;
 }
@@ -631,7 +629,6 @@ footer{
     text-align: center;
 }
 .footer .credit span{
-    color:#F5E0AE  ;
+    color:#E89F71  ;
 }
 
->>>>>>> 1085c97a874bb87db9eb17f69706cbad13cb0bbc
