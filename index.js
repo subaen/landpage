@@ -1,6 +1,17 @@
 window.onscroll = () =>{
   if (window.scrollY > 40) {
-    document.querySelector('header-2').classList.add('active');
+    document.querySelector('.header .header-2').classList.add('activation');
+  }
+  else{
+    document.querySelector('.header .header-2').classList.remove('activation');
+  }
+}
+window.onload = () =>{
+  if (window.scrollY > 40) {
+    document.querySelector('.header .header-2').classList.add('activation');
+  }
+  else{
+    document.querySelector('.header .header-2').classList.remove('activation');
   }
 }
 
@@ -26,8 +37,8 @@ var swiper = new Swiper(".books-slider", {
       },
       "1024": {
         slidesPerView: 3,
-      },
-    },
+      }
+    }
   });
 
   var swiper = new Swiper(".xu-huong-slider", {
@@ -51,17 +62,8 @@ var swiper = new Swiper(".books-slider", {
       },
        768: {
          slidesPerView: 3,
-       },
-       1024: {
-         slidesPerView: 4,
-       },
-       2048: {
-        slidesPerView: 5,
-      },
-       4096: {
-        slidesPerView: 6,
-      }
-     },
+       }
+     }
    });
 
    var swiper = new Swiper(".noi-bat-slider", {
@@ -83,7 +85,52 @@ var swiper = new Swiper(".books-slider", {
        },
        1024: {
          slidesPerView: 3,
-       },
-     },
+       }
+     }
    });
  
+   var swiper = new Swiper(".review-slider", {
+    spaceBetween:10,
+    loop:true,
+    centeredSlides:true,
+    autoplay: {
+     delay: 1600,
+     disableoninteraction: false,
+    },
+
+     breakpoints: {
+       0: {
+         slidesPerView: 1,
+       },
+
+       768: {
+         slidesPerView: 2,
+       },
+       1024: {
+         slidesPerView: 3,
+       }
+     }
+   });
+ 
+   var swiper = new Swiper(".blogs-slider", {
+    spaceBetween:10,
+    loop:true,
+    centeredSlides:true,
+    autoplay: {
+     delay: 9500,
+     disableoninteraction: false,
+    },
+
+     breakpoints: {
+       0: {
+         slidesPerView: 1,
+       },
+       
+       768: {
+         slidesPerView: 2,
+       },
+       1024: {
+         slidesPerView: 3,
+       }
+     }
+   });
