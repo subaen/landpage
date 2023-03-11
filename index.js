@@ -37,8 +37,8 @@ var swiper = new Swiper(".books-slider", {
       },
       "1024": {
         slidesPerView: 3,
-      },
-    },
+      }
+    }
   });
 
   var swiper = new Swiper(".xu-huong-slider", {
@@ -62,17 +62,8 @@ var swiper = new Swiper(".books-slider", {
       },
        768: {
          slidesPerView: 3,
-       },
-       1024: {
-         slidesPerView: 4,
-       },
-       2048: {
-        slidesPerView: 5,
-      },
-       4096: {
-        slidesPerView: 6,
-      }
-     },
+       }
+     }
    });
 
    var swiper = new Swiper(".noi-bat-slider", {
@@ -94,8 +85,8 @@ var swiper = new Swiper(".books-slider", {
        },
        1024: {
          slidesPerView: 3,
-       },
-     },
+       }
+     }
    });
  
    var swiper = new Swiper(".review-slider", {
@@ -103,7 +94,7 @@ var swiper = new Swiper(".books-slider", {
     loop:true,
     centeredSlides:true,
     autoplay: {
-     delay: 9500,
+     delay: 1600,
      disableoninteraction: false,
     },
 
@@ -111,14 +102,14 @@ var swiper = new Swiper(".books-slider", {
        0: {
          slidesPerView: 1,
        },
-       
+
        768: {
          slidesPerView: 2,
        },
        1024: {
          slidesPerView: 3,
-       },
-     },
+       }
+     }
    });
  
    var swiper = new Swiper(".blogs-slider", {
@@ -140,6 +131,6 @@ var swiper = new Swiper(".books-slider", {
        },
        1024: {
          slidesPerView: 3,
-       },
-     },
+       }
+     }
    });
