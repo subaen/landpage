@@ -347,22 +347,6 @@ color: #898989;
     text-decoration: line-through;
 }
 
-.swiper-button-next,
-.swiper-button-prev{
-    border: var(--boder-hover);
-    height: 4rem;
-    width: 4rem;
-    background: #fff;
-    color: #fff;
-}
-.swiper-button-next:after,
-.swiper-button-prev:after{
-    font-size: 2rem;
-}
-.swiper-button-next:hover,
-.swiper-button-prev:hover{
-    background-color: #E89F71;
-}
 
 .noi-bat-slider{
     height: 30rem;
