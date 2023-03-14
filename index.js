@@ -24,10 +24,6 @@ var swiper = new Swiper(".books-slider", {
     delay: 9500,
     disableoninteraction: false,
    },
-   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
     breakpoints: {
       "0": {
         slidesPerView: 1,
@@ -79,7 +75,6 @@ var swiper = new Swiper(".books-slider", {
        "0": {
          slidesPerView: 1,
        },
-       
        "768": {
          slidesPerView: 2,
        },
