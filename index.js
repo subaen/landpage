@@ -54,13 +54,13 @@ var swiper = new Swiper(".books-slider", {
       prevEl: ".swiper-button-prev",
     },
      breakpoints: {
-       0: {
+       "0": {
          slidesPerView: 1,
        },
-       450: {
+       "450": {
         slidesPerView: 2,
       },
-       768: {
+       "768": {
          slidesPerView: 3,
        }
      }
@@ -76,14 +76,14 @@ var swiper = new Swiper(".books-slider", {
     },
 
      breakpoints: {
-       0: {
+       "0": {
          slidesPerView: 1,
        },
        
-       768: {
+       "768": {
          slidesPerView: 2,
        },
-       1024: {
+       "1024": {
          slidesPerView: 3,
        }
      }
@@ -94,19 +94,17 @@ var swiper = new Swiper(".books-slider", {
     loop:true,
     centeredSlides:true,
     autoplay: {
-     delay: 1600,
+     delay: 9500,
      disableoninteraction: false,
     },
-
      breakpoints: {
-       0: {
+       "0": {
          slidesPerView: 1,
        },
-
-       768: {
+       "768": {
          slidesPerView: 2,
        },
-       1024: {
+       "1024": {
          slidesPerView: 3,
        }
      }
@@ -122,14 +120,14 @@ var swiper = new Swiper(".books-slider", {
     },
 
      breakpoints: {
-       0: {
+       "0": {
          slidesPerView: 1,
        },
        
-       768: {
+       "768": {
          slidesPerView: 2,
        },
-       1024: {
+       "1024": {
          slidesPerView: 3,
        }
      }
