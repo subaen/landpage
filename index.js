@@ -37,8 +37,8 @@ var swiper = new Swiper(".books-slider", {
       },
       "1024": {
         slidesPerView: 3,
-      },
-    },
+      }
+    }
   });
 
   var swiper = new Swiper(".xu-huong-slider", {
@@ -54,25 +54,16 @@ var swiper = new Swiper(".books-slider", {
       prevEl: ".swiper-button-prev",
     },
      breakpoints: {
-       0: {
+       "0": {
          slidesPerView: 1,
        },
-       450: {
+       "450": {
         slidesPerView: 2,
       },
-       768: {
+       "768": {
          slidesPerView: 3,
-       },
-       1024: {
-         slidesPerView: 4,
-       },
-       2048: {
-        slidesPerView: 5,
-      },
-       4096: {
-        slidesPerView: 6,
-      }
-     },
+       }
+     }
    });
 
    var swiper = new Swiper(".noi-bat-slider", {
@@ -85,17 +76,17 @@ var swiper = new Swiper(".books-slider", {
     },
 
      breakpoints: {
-       0: {
+       "0": {
          slidesPerView: 1,
        },
        
-       768: {
+       "768": {
          slidesPerView: 2,
        },
-       1024: {
+       "1024": {
          slidesPerView: 3,
-       },
-     },
+       }
+     }
    });
  
    var swiper = new Swiper(".review-slider", {
@@ -106,19 +97,17 @@ var swiper = new Swiper(".books-slider", {
      delay: 9500,
      disableoninteraction: false,
     },
-
      breakpoints: {
-       0: {
+       "0": {
          slidesPerView: 1,
        },
-       
-       768: {
+       "768": {
          slidesPerView: 2,
        },
-       1024: {
+       "1024": {
          slidesPerView: 3,
-       },
-     },
+       }
+     }
    });
  
    var swiper = new Swiper(".blogs-slider", {
@@ -131,15 +120,15 @@ var swiper = new Swiper(".books-slider", {
     },
 
      breakpoints: {
-       0: {
+       "0": {
          slidesPerView: 1,
        },
        
-       768: {
+       "768": {
          slidesPerView: 2,
        },
-       1024: {
+       "1024": {
          slidesPerView: 3,
-       },
-     },
+       }
+     }
    });
