@@ -1,0 +1,233 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+            }
+    
+            .container {
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+                background-color: #f9f9f9;
+            }
+    
+            .form {
+                display: grid;
+                grid-gap: 10px;
+            }
+    
+            .form-control {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                outline: none;
+                transition: border-color 0.3s ease;
+            }
+    
+            .form-control:focus {
+                border-color: #80bdff;
+            }
+    
+            .form-label {
+                font-weight: bold;
+            }
+    
+            .form-radio-label {
+                margin-right: 20px;
+            }
+    
+            .form-checkbox-label {
+                display: inline-block;
+                margin-right: 10px;
+            }
+    
+            .form-button {
+                background-color: #4c9baf;
+                color: black;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+    
+            .form-button:disabled {
+                background-color: #ca7171;
+                cursor: not-allowed;
+            }
+    
+            .form-button:hover {
+                background-color: #6e234c;
+            }
+    
+            .form-button-container {
+                display: flex;
+                justify-content: space-between;
+            }
+    
+            hr {
+                margin: 20px 0;
+                border: none;
+                border-top: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-book"></i>Book Store </a>
+    
+            <form  class="sreach-form">
+                <input type="search" name="" id="search-box" class="fas fa-search" placeholder="search here...">
+                <label for="search-box" class="fas fa-search" ></label>
+            </form>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-user"></a>
+            </div>
+        </div>
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="index.html">Trang chủ</a>
+                <a href="index.html">Xu hướng</a>
+                <a href="index.html">Nổi bật</a>
+                <a href="index.html">Reviews</a>
+                <a href="index.html">Blogs</a>
+                <a href="#lienhe">Liên hệ</a>
+                <a href="banhang.html">bán hàng</a>
+            </nav>
+        </div>
+        </header>
+            
+    
+        <div class="container">
+            <h1 style="text-align: center; color: blue;">FORM LIÊN HỆ</h1>
+            <form action="" method="post" class="form">
+                <div class="form-control-container">
+                    <label class="form-label" for="username">Username:</label>
+                    <input type="text" name="username" id="username" class="form-control">
+                </div>
+                <div class="form-control-container">
+                    <label class="form-label" for="password">Password:</label>
+                    <input type="password" id="password" name="password" class="form-control">
+                </div>
+                <div class="form-control-container">
+                    <label class="form-label" for="fullname">Họ và tên:</label>
+                    <input type="text" name="fullname" id="fullname" class="form-control">
+                </div>
+                <div class="form-control-container">
+                    <label class="form-label">Giới tính:</label>
+                    <label class="form-radio-label">
+    <input type="radio" name="gender" value="Nam"> Nam
+                    </label>
+                    <label class="form-radio-label">
+                        <input type="radio" name="gender" value="Nữ"> Nữ
+                    </label>
+                </div>
+                <div class="form-control-container">
+                    <label class="form-label" for="email">Email:</label>
+                    <input type="email" name="email" id="email" class="form-control">
+                </div>
+                <div class="form-control-container">
+                    <label class="form-label" for="nationality">Quốc tịch:</label>
+                    <select name="nationality" id="nationality" class="form-control">
+                        <option value="Việt Nam">Việt Nam</option>
+                        <option value="Thái Lan">Thái lan</option>
+                        <option value="Lào">Lào</option>
+                        <option value="Cam Pu Chia">Cam Pu Chia</option>
+                    </select>
+                </div>
+                <div class="form-control-container">
+                    <label class="form-label">Sở thích:</label>
+                    <label class="form-checkbox-label">
+                        <input type="checkbox" name="hobbies" value="Thể Thao"> Thể Thao
+                    </label>
+                    <label class="form-checkbox-label">
+                        <input type="checkbox" name="hobbies" value="Du Lịch"> Du Lịch
+                    </label>
+                    <label class="form-checkbox-label">
+                        <input type="checkbox" name="hobbies" value="Đọc sách"> Đọc sách
+                    </label>
+                    <label class="form-checkbox-label">
+                        <input type="checkbox" name="hobbies" value="Nghe nhạc"> Nghe nhạc
+                    </label>
+                </div>
+                <div class="form-control-container">
+                    <label class="form-label" for="note">Ghi chú:</label>
+                    <textarea name="note" id="note" cols="50" rows="6" class="form-control"></textarea>
+                </div>
+                <hr>
+                <div class="form-button-container">
+                    <button class="form-button" tabindex="1">Submit</button>
+                    <button class="form-button" disabled>Reset</button>
+                </div>
+            </form>
+        </div>
+
+<!-- FOOTER START -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box0">
+                <h3>Our locations</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> VietNam</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> USA</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> JaPan</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> China</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Lao</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> ThaiLand</a>
+            </div>
+            <div class="box0">
+                <h3>quick links</h3>
+                <a href="#"><i class="fas fa-arrow-alt-right"></i> Trang chủ</a>
+                <a href="#xu-huong"><i class="fas fa-arrow-alt-right"></i> Xu hướng</a>
+                <a href="#noi-bat"><i class="fas fa-arrow-alt-right"></i> Nổi bật</a>
+                <a href="#review"><i class="fas fa-arrow-alt-right"></i> review</a>
+                <a href="#blogs"><i class="fas fa-arrow-alt-right"></i> blogs</a>
+            </div>
+            <div class="box0">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-arrow-alt-right"></i> account info </a>
+                <a href="#"><i class="fas fa-arrow-alt-right"></i> ordered items</a>
+                <a href="#"><i class="fas fa-arrow-alt-right"></i> privacy policy </a>
+                <a href="#"><i class="fas fa-arrow-alt-right"></i> payment method</a>
+                <a href="#"><i class="fas fa-arrow-alt-right"></i> our serivces</a>
+            </div>
+
+            <div class="box0">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i> +84353838935</a>
+                <a href="#"><i class="fas fa-phone"></i> +84326710808</a>
+                <a href="#"><i class="fas fa-phone"></i> sakura196@gmail.com </a>
+                <img src="img/pngimg.com - world_map_PNG27.png" alt="" width="250px" height="130px">
+            </div>
+            <div class="share">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-youtUbe"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-tiktok"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+            <div class="credit">created by <span>Team BRO</span> </div>
+        </div>
+    </section>
+
+
+<!-- FOOTER END -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>     
+       <script src="./index.js"></script>
+    </body>
+</html>
