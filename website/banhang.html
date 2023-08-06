@@ -34,8 +34,88 @@
         </div>
         </header>
             
+        <h2>BÁN HÀNG</h2>
+        <Select name="" id="price" class="price">
+            <option value="0">chọn mức giá</option>
+            <Option value="1">dưới 100</Option>
+            <Option value="2">từ 100 đến 500</Option>
+            <Option value="3">trên 500</Option>
+        </Select>
+        <Hr>
+        <Div class="bang">
+            <table id="sp" border="1xp"  onclick="tongtien()">
+            <tr>
+                <td><input type="checkbox" id="chk" onclick="ht()"></td>
+                <th>Hàng hóa</th>
+                <Th>Đơn giá</Th>
+                <Th>Số lượng</Th>
+                <th>thành tiền</th>
+            </tr>
+            <tr class="lv2">
+                <td><input type="checkbox" id="chk" onclick="ht1()"></td>
+                <td>Iphone</td>
+                <Td>700</Td>
+                <Td><input type="number" min="0" step="1" id="ip"></Td>
+                <Td id="ttip"></Td>
+            </tr>
+            <tr class="lv1">
+                <td><input type="checkbox" id="chk" onclick="ht2()"></td>
+                <td>Samsung</td>
+                <Td>450</Td>
+                <Td><input type="number" min="0" step="1" id="ss"></Td>
+                <Td id="ttss"></Td>
+            </tr>
+            <tr class="lv3">
+                <td><input type="checkbox" id="chk" onclick="ht3()"></td>
+                <td>Nokia</td>
+                <Td>100</Td>
+                <Td><input type="number" min="0" step="1" id="nk"></Td>
+                <Td id="ttnk"></Td>
+            </tr>
+            <tr class="lv0">
+                <td><input type="checkbox" id="chk" onclick="ht4()"></td>
+                <td>Bphone</td>
+                <Td>90</Td>
+                <Td><input type="number" min="0" step="1" id="bp"></Td>
+                <Td id="ttbp"></Td>
+            </tr>
+            <tr>
+                <th colspan="4">Tổng Tiền</th>
+                <Th id="tongtien"></Th>
+            </tr>
+            </table>
+        </Div></Hr>
+        <Script>
+            function ht1() {
+                var ip = document.getElementById("ip");
+                var ttip = 700* ip.value;
+                document.getElementById("ttip").innerText = +ttip;
+            }
+            function ht2() {
+                var ss = document.getElementById("ss");
+                var ttss = 450* ss.value;
+                document.getElementById("ttss").innerText = +ttss;
+            }
+            function ht3() {
+                var nk = document.getElementById("nk");
+                var ttnk = 100* nk.value;
+                document.getElementById("ttnk").innerText = +ttnk;
+            }
+            function ht4() {
+                var bp = document.getElementById("bp");
+                var ttbp = 90* bp.value;
+                document.getElementById("ttbp").innerText = +ttbp;
+            }
+            function tongtien() {
+                var ip = document.getElementById("ip").value;
+                var ss = document.getElementById("ss").value;
+                var nk = document.getElementById("nk").value;
+                var bp = document.getElementById("bp").value;
+                var tt = 700*ip + 450*ss + 100* nk + 90*bp;
+                document.getElementById("tongtien").innerText = +tt;
+            }
+        </Script>
     
-
 <!-- FOOTER START -->
     <section class="footer">
         <div class="box-container">
